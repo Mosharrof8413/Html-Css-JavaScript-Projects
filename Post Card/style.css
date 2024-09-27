@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.posts{
+    width: 100%;
+    padding: 1rem;
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.post{
+    width: 23%;
+    margin: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.4s;
+}
+.post:hover{
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.2);
+    background-color:gray;
+
+}
+
+@media screen and (max-width:992px){
+
+    .post{
+        width: 48%;
+       
+    }
+}
+
